@@ -1,0 +1,95 @@
+body {
+    background-color: #ffebe9;
+    font-family: "Narnoor", serif;
+}
+
+h1 {
+    color: #2b5254;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+#left-main--content-text p {
+    color: #2b5254;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#left-main--content-Scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-main--content-scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 8rem;
+    padding: 0.2rem;
+    margin-top: 5.5rem;
+    color: #e1c4c0;
+    border-radius: 10px;
+    background: #2b5254;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#left-main--content-scroll svg {
+    margin-left: 0.5rem;
+    width: 15px;
+    height: 20px;
+}
+
+#main--content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22vh 0vh 25vh 0vh;
+}
+
+#left-main--content-images img {
+    margin: 2rem 2rem 1rem 2rem;
+    border: 1px solid #e1c4c0;
+    border-radius: 10px;
+}
+
+#html {
+    animation: floating 10s infinite both ease-in-out;
+}
+
+#css {
+    height: 5.25rem;
+    width: auto;
+    animation: floating 8s infinite;
+}
+
+#js {
+    animation: floating2 12s infinite ease-in-out both;
+}
+
+#html, #js {
+    height: 4.3rem;
+    width: auto;
+    padding: 1rem;
+}
+
+#right-main--content img {
+    display: flex;
+    border-radius: 6.25rem;
+    width: 26.1rem;
+    height: 29rem;
+}
+
+@keyframes floating {
+    0%, 100% { transform: translateY(1rem) rotate(-6deg) scale(100%); }
+    50% { transform: translateY(-1rem) rotate(5deg) scale(90%);  }
+}
+
+@keyframes floating2 {
+    0%, 100% { transform: translateY(-3rem) rotate(-10deg) scale(110%); }
+    50% { transform: translateY(1rem) rotate(15deg) scale(95%);  }
+}

@@ -1,0 +1,30 @@
+footer {
+    z-index: 999;
+    background-color: #e1c4c0;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+}
+
+#footer--icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0.1rem;
+    margin-right: 1rem;
+}
+
+footer svg {
+    color: #fff;
+    padding: 0.8rem;
+    width: 25px;
+    height: 20px;
+}
+
+footer img {
+    color: #fff;
+    padding: 0.8rem;
+    width: 25px;
+    height: 20px;
+}

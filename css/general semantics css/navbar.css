@@ -1,0 +1,74 @@
+nav {
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width:  100%;
+    left: 0;
+    border-bottom: 1px solid #d3b5b1;
+    background: rgba(255, 235, 233, 0.47);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.3px);
+    -webkit-backdrop-filter: blur(9.3px);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: #e1c4c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a span {
+    margin: 0rem 1.2rem 0rem 1.2rem;
+    padding: 0.2rem 0.8rem 0.5rem 0.8rem;
+}
+
+nav a:hover span {
+    color: #2b5254;
+    background-color: #e1c4c0;
+    border-radius: 2rem;
+}
+
+.active span {
+    color: #2b5254;
+    background-color: #e1c4c0;
+    border-radius: 2rem;
+}
+
+.menu-toggle {
+    display: none; /* Oculta o botão em dispositivos não móveis */
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #e1c4c0;
+    margin: 5px auto;
+    transition: all 0.3s linear;
+}
+
+/* Estilos para ocultar a lista de links em dispositivos móveis */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para exibir o menu quando o botão for clicado */
+.nav-links.active {
+    display: block;
+}

@@ -1,0 +1,93 @@
+#portfolio--container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem 1rem 0rem;
+}
+
+#portfolio--container-p {
+    margin: 2rem 0rem 4rem 50rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #2b5254;
+}
+
+#portfolio--container-rotate {
+    display: flex;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+#portfolio--container-toDo {
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+#portfolio--container-background {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 6rem 2rem;
+    gap: 2rem;
+    background: #FFF3F3;
+    border-radius: 1rem;
+    width: 20.3rem;
+    height: 31.4rem;
+}
+
+#portfolio--container-contentLeft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#portfolio--container-text {
+    color: #2b5254;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+}
+
+#portfolio--container-img {
+    width: 20.5rem;
+    height: 10.7rem;
+
+}
+
+#portfolio--container-git {
+    display: flex;
+    justify-content: end;
+}
+
+#portfolio--container-contentRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#portfolio--container-techs-text {
+    color: #2b5254;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#portfolio--container-techs-imgs {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0rem;
+    gap: 1.6rem;
+    width: 100%;
+    height: auto;
+}
+
+#portfolio--container-techs-imgs img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+#portfolio--container-description {
+    color: #2b5254;
+    font-weight: 300;
+    font-size: 1rem;
+}
