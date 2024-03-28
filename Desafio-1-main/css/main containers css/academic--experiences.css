@@ -1,0 +1,22 @@
+#academic--experiences--content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 11rem 0rem 10rem 0rem;
+}
+
+#academics p, #experiences p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b5254;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+#academics img, #experiences img {
+    height: 20rem;
+}
+
+#experiences {
+    padding-bottom: 6rem;
+}

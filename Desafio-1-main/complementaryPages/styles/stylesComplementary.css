@@ -1,0 +1,54 @@
+body {
+    background-color: #ffebe9;
+    font-family: "Narnoor", serif;
+}
+
+#central {
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 8rem;
+}
+
+#central img {
+    position: absolute;
+    width: 11rem;
+    height: 12.1rem;
+    margin-top: 57rem;
+    margin-left: 10rem;
+}
+
+#baloon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#baloon img {
+    position: relative;
+    margin-top: 1.8rem;
+    width: 75%;
+    height: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+}
+
+footer a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #cd7e9b;
+}
+
+footer svg {
+    margin-left: 0.5rem;
+}

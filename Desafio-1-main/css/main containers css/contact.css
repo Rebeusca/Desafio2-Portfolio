@@ -1,0 +1,111 @@
+#contact--section {
+    padding: 16rem 0rem 16rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact--content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+#contact--title h3 {
+    display: flex;
+    text-align: start;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2b5254;
+}
+
+#contact--title p {
+    display: flex;
+    text-align: start;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #2b5254;
+}
+
+#contact--icons {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+#contact--form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email--form a {
+    display: flex;
+    justify-content: end;
+    font-family: "Narnoor", serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #666464;
+}
+
+input[type="text"],
+input[type="email"] {
+    font-family: "Narnoor", serif;
+    color: #cd7e9b;
+    width: 16.5rem;
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+textarea {
+    font-family: "Narnoor", serif;
+    width: 35rem;
+    height: 8rem;
+    resize: none;
+    padding: 0.6rem;
+    margin-bottom: 1.2rem;
+    border: none;
+    border-radius: 4px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #cd7e9b;
+}
+
+#submit--button {
+    font-family: "Narnoor", serif;
+    background-color: #2b5254;
+    color: #e1c4c0;
+    padding: 0.5rem 1rem 0.8rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+#submit--button:hover {
+    background-color: #cd7e9b;
+    color: #2b5254;
+}
+
+.default-button {
+    background-color: #2b5254;
+    color: #e1c4c0;
+}
+
+.default-button:hover {
+    background-color: #cd7e9b;
+    color: #2b5254;
+}
