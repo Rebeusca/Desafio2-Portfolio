@@ -7,10 +7,13 @@
 }
 
 #portfolio--container-p {
-    margin: 2rem 0rem 4rem 50rem;
+    margin: 2rem 0rem 4rem 0rem;
     font-size: 2.5rem;
     font-weight: 800;
     color: #2b5254;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #portfolio--container-rotate {

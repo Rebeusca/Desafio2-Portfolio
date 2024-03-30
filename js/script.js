@@ -41,11 +41,38 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+function exibirMensagens() {
+    var mensagens = JSON.parse(localStorage.getItem('Dados')) || { mensagens: [] };
+    var listaMensagens = document.getElementById('listaMensagens');
+    listaMensagens.innerHTML = ''; 
+
+    mensagens.mensagens.forEach(function(mensagem) {
+        var elem = document.createElement('div');
+        elem.innerHTML = `
+            <p><strong>Nome:</strong> ${mensagem.nome}</p>
+            <p><strong>Email:</strong> ${mensagem.email}</p>
+            <p><strong>Assunto:</strong> ${mensagem.assunto}</p>
+            <p><strong>Mensagem:</strong> ${mensagem.mensagem}</p>
+            <hr>
+        `;
+        listaMensagens.appendChild(elem);
+    });
+}
+
+window.onload = exibirMensagens;
+
+document.addEventListener('visibilitychange', function() {
+    if (!document.hidden) {
+        exibirMensagens();
+    }
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     const clearLocalStorageBtn = document.getElementById('remove--button');
 
     clearLocalStorageBtn.addEventListener('click', function() {
-        localStorage.clear("Dados");
+        localStorage.removeItem("Dados");
         alert('LocalStorage limpo com sucesso!');
+        window.location.reload();
     });
 });

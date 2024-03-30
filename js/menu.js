@@ -15,7 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // Adiciona um ouvinte de evento a cada link do menu
   navLinksItems.forEach(function(navLink) {
       navLink.addEventListener('click', function() {
-          navLinks.style.display = 'none'; // Oculta o menu
+        if (window.innerWidth <= 574) {
+            navLinks.style.display = 'none'; // Oculta o menu
+        }
       });
   });
 });

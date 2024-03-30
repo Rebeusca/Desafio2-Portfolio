@@ -43,6 +43,16 @@
     justify-content: center;
 }
 
+#email--form a {
+    display: flex;
+    justify-content: end;
+    font-family: "Narnoor", serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #666464;
+}
+
 input[type="text"],
 input[type="email"] {
     font-family: "Narnoor", serif;
@@ -69,11 +79,6 @@ input::placeholder, textarea::placeholder {
     font-size: 0.9rem;
     font-weight: 600;
     color: #cd7e9b;
-}
-
-#buttons--form {
-    display: flex;
-    justify-content: space-between;
 }
 
 #submit--button {
@@ -103,16 +108,4 @@ input::placeholder, textarea::placeholder {
 .default-button:hover {
     background-color: #cd7e9b;
     color: #2b5254;
-}
-
-#remove--button {
-    font-family: "Narnoor", serif;
-    background-color: #ffebe9;
-    color: #666464;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    font-size: 0.8rem;
 }

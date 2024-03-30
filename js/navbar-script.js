@@ -13,7 +13,7 @@ function setActiveMenuItem() {
        const sectionHeight = section.clientHeight;
  
        // Calcula a posição de rolagem que considera a seção como "visível"
-       const activationPosition = scrollPosition + windowHeight / 2;
+       const activationPosition = scrollPosition + windowHeight / 3;
  
        // Verifica se a seção está visível na janela de visualização
        if (activationPosition >= sectionTop && activationPosition < sectionTop + sectionHeight) {
